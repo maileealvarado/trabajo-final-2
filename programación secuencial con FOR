@@ -1,0 +1,87 @@
+//Usando For bucle en decremento Ejercicio 1
+
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		
+		int i;
+		
+		for(i=100; i>0; i--)
+
+		{
+			Console.Write("numero de repeticion: ");
+		    Console.WriteLine(i);
+			
+		}
+	}
+}
+
+
+//Usando FOR bucle en incremento Ejercicio 2
+
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		
+		int i;
+		
+		for(i=0; i<=80; i++)
+
+		{
+			Console.Write("numero de repeticion: ");
+		    Console.WriteLine(i);
+			
+		}
+	}
+}
+
+
+// Usando FOR con variaciones en drecremento ejercicio 3
+
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		
+		int i;
+		
+		for(i=50; i>0; i-=5)
+
+		{
+			Console.Write("numero de repeticion: ");
+		    Console.WriteLine(i);
+			
+		}
+	}
+}
+
+
+
+// Usando FOR con variaciones incremento ejercicio 4
+
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		
+		int i;
+		
+		for(i=0; i<50; i+=5)
+
+		{
+			Console.Write("numero de repeticion: ");
+		    Console.WriteLine(i);
+			
+		}
+	}
+}
